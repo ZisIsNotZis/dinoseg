@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# sidecar caches written next to input images by dinoseg*.py
+*.40,40,384e
+*.99,3B
+# model weights / converted models
+*.pth
+*.pt
+*.onnx
+*.gguf
