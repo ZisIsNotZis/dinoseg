@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.pi/
+/dinov3/
 # sidecar caches written next to input images by dinoseg*.py
 *.40,40,384e
 *.99,3B

@@ -46,8 +46,8 @@ path were ever implemented — the tool draws to screen and that is all.
 ## Boundaries
 
 - No CLI, no headless mode, no mask export; the only output is an OpenCV window.
-- No tests, no CI, no packaging, no `LICENSE` (all-rights-reserved by default —
-  a license must be chosen before publishing).
+- No tests, no CI, no packaging. Source is licensed under GNU AGPL-3.0-only;
+  see `LICENSE`.
 - No quantitative result of any kind: no IoU/Dice, no dataset, no comparison to
   fine-tuned segmentation models. Do not cite an accuracy figure.
 - No code sharing with `dino.py`: no import, no common library, no runtime

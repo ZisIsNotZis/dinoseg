@@ -111,8 +111,7 @@ interoperable tools. `dinoseg3.py` is the one to run.
 - **No CLI, no headless mode, no batch export.** The tool only draws to an
   OpenCV window; there is no way to write masks to disk other than
   screen-reading. This is the single biggest gap.
-- **No packaging** (`setup.py`/`pyproject.toml`), **no tests**, **no CI**, **no
-  license file**.
+- **No packaging** (`setup.py`/`pyproject.toml`), **no tests**, **no CI**.
 - `dinoseg2.py` imports `from util import vcache, chunk`, but **`util.py` is not
   present in the archive** — that version cannot run as-archived. (The same two
   helpers are inlined in `dinoseg.py`, so the module was dropped between
@@ -155,6 +154,4 @@ Status: **archived salvage, do not publish as a maintained tool.** Unreleased,
 unmeasured, GUI-only, no tests. Kept as provenance/portfolio evidence of the
 DINO-for-inspection line of work.
 
-License: **none.** No `LICENSE`, no SPDX header, no copyright notice anywhere in
-the archive. Absent an explicit license, the default is all-rights-reserved;
-a license must be chosen by the author before this is published.
+License: GNU AGPL-3.0-only; see [LICENSE](LICENSE).
