@@ -12,3 +12,16 @@ venv/
 *.pt
 *.onnx
 *.gguf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
+
+# build artifacts
+build/
+dist/
+*.egg-info/
