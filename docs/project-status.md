@@ -2,14 +2,14 @@
 
 ## Classification
 
-Private-archive salvage: interactive segmentation / region-masking tooling built
-on **frozen DINOv3 ViT-S/16 patch tokens** for industrial machine vision.
-Three successive snapshots of one Python GUI app (`dinoseg.py` → `dinoseg2.py`
-→ `dinoseg3.py`); researched and written, never released, no package, no tests.
+Reference implementation, published as-is: interactive segmentation /
+region-masking tooling built on **frozen DINOv3 ViT-S/16 patch tokens** for
+industrial machine vision. Three successive snapshots of one Python GUI app
+(`dinoseg.py` → `dinoseg2.py` → `dinoseg3.py`); no package, no tests.
 
 ## Status
 
-**Archived / superseded snapshots — not maintained.** `dinoseg3.py` is the
+**Reference implementation — not maintained as a product.** `dinoseg3.py` is the
 canonical, runnable version: it loads DINOv3 via `torch.hub`, extracts 40×40
 patch tokens, lets the user click labels into sidecar files, and renders kNN and
 linear-probe masks in an OpenCV grid GUI. `dinoseg2.py` and `dinoseg.py` are
