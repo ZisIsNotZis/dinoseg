@@ -152,4 +152,4 @@ Same author, same checkpoint lineage as the `dino.py` project (DINO features for
 
 ## License
 
-GNU AGPL-3.0-only. See [`LICENSE`](LICENSE).
+GNU AGPL-3.0-only, copyright © ZisIsNotZis. See [`LICENSE`](LICENSE).

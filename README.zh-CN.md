@@ -151,4 +151,4 @@ python3 dinoseg3.py img_0001.jpg img_0002.jpg img_0003.jpg
 
 ## 许可证
 
-GNU AGPL-3.0-only。见 [`LICENSE`](LICENSE)。
+GNU AGPL-3.0-only，版权归 ZisIsNotZis 所有。见 [`LICENSE`](LICENSE)。
