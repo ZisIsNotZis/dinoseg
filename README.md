@@ -66,7 +66,7 @@ The window is a grid of up to `CVSH × CVSW` images.
 - **Click-to-label** — up to 99 labelled patches per image, stored as `(y, x, class)` triples beside the image.
 - **Two predictors** over the frozen features:
   - **kNN vote** — cosine similarity against every labelled patch, with a 0.8 margin to background.
-  - **Linear probe** — `torch.nn.Linear(384, CLS)` trained with Adam on the clicked patches.
+  - **Linear probe** — `torch.nn.Linear(384, CLS)` trained with Adam on the clicked patches. Background is a padded logit fixed at `0`, so a patch falls back to background whenever all `CLS` class logits come out negative.
 - **Batch review** — grid navigation, class switching, confidence sorting and live overlay toggling.
 - **Incremental caches** — embeddings, labels and predictions are invalidated by the `mtime` of their inputs, so a click retrains only what depends on it.
 - **No masks on disk** — predictions are drawn to an OpenCV window and that is all; export is the biggest missing piece.
